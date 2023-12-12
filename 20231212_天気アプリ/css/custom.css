@@ -1,0 +1,62 @@
+/* CSS */
+
+/* custom.css */
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f2f2f2;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+  }
+  
+  h1 {
+	text-align: center;
+	color: #009688;
+  }
+  
+  #msg_1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 20px;
+  }
+  
+  #msg_2, #msg_3, #msg_4, #msg_5 {
+	font-size: 1em;
+	margin-top: 10px;
+  }
+  
+  /* Optional: Add some styling to make it visually appealing */
+  #msg_1 {
+	animation: fadeInUp 1s ease-in-out;
+  }
+  
+  #msg_2, #msg_3, #msg_4, #msg_5 {
+	animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  transform: translateY(-20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
