@@ -1,0 +1,110 @@
+/* CSS */
+
+
+/* custom.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: "a-otf-jun-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    /* 以下は追加された部分 */
+    display: block;
+    font-family: "a-otf-jun-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#my_img {
+    margin: 30px auto; /* 上下は30px、左右は自動で均等に */
+    display: block; /* インライン要素からブロック要素に変更（必要に応じて） */
+    width: 300px;
+    height: 300px;
+}
+p{
+    font-family: "a-otf-jun-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 16px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#sub{
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 5fr;
+}
+.btn_a{
+	
+    display: inline-block;
+    margin: 0 10px; /* ボタン間のスペース調整 */
+	
+    grid-column: 2/3;
+    
+}
+.btn_b{
+	
+    display: inline-block;
+    margin: 0 10px; /* ボタン間のスペース調整 */
+	
+    grid-column: 3/4;
+    
+}
+.btn_c{
+	
+    display: inline-block;
+    margin: 0 10px; /* ボタン間のスペース調整 */
+	
+    grid-column: 4/5;
+    
+}
+
+button img {
+    width: 50px; /* 画像の幅を適切なサイズに調整してください */
+    height: 50px; /* 画像の高さを適切なサイズに調整してください */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* その他のスタイルは必要に応じて追加してください */
