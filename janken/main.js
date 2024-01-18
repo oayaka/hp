@@ -148,9 +148,6 @@ function displayScore() {
 	scoreElement.textContent = `得点: ${score}`;
 }
 
-
-
-
 // アニメーション
 function doAnimation(id, type){
 	const elem = $(id);
