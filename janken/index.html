@@ -28,7 +28,7 @@
 <body>
 	
 	<h1>後出しジャンケンゲーム</h1>
-    <button onclick="startGame()">ゲームスタート</button>
+    <button id="my_btn"onclick="startGame()">ゲームスタート</button>
 	<img id="my_img"src="./images/hatena.png">
 	<p id="result"></p>
     <p id="score">得点: 0</p>
@@ -37,13 +37,13 @@
 	
 	
 	<div id="sub">
-	<button class="btn_a" onclick="checkHand('グー')">
+	<button class="btn_a" id="btn_a" onclick="checkHand('グー')">
 		<img src="./images/guu.png"> グー
 	</button>
-	<button class="btn_b"onclick="checkHand('チョキ')">
+	<button class="btn_b" id="btn_b"onclick="checkHand('チョキ')">
 		<img src="./images/choki.png"> チョキ
 	</button>
-	<button class="btn_c"onclick="checkHand('パー')">
+	<button class="btn_c" id="btn_c"onclick="checkHand('パー')">
 		<img src="./images/paa.png"> パー
 	</button>
     </div>

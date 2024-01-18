@@ -10,6 +10,34 @@ console.log("main.js!!");
 // Ready
 $(document).ready(()=>{
 	console.log("Ready!!");
+
+
+	//サウンドファイルのロード
+	const sndA = new Howl({
+		src:"./sounds/ko.mp3"  //サウンドファイルのパス
+		
+	});
+
+	const sndB = new Howl({
+		src:"./sounds/piko_2.mp3"  //サウンドファイルのパス
+		
+	});
+
+	//クリックイベント
+	$("#btn_a").click(()=>{
+		sndA.play();  //サウンドの再生
+	})
+	$("#btn_b").click(()=>{
+		sndA.play();  
+	})
+	$("#btn_c").click(()=>{
+		sndA.play();  
+	})
+
+	$("#my_btn").click(()=>{
+		sndB.play();  
+	})
+
 });
 
 let gameActive = false;
