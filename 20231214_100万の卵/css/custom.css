@@ -1,0 +1,69 @@
+/* CSS */
+
+/* Reset some default styles */
+body, h1, h4, p, ol, li {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f0f0;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: #333;
+  }
+  
+  h4 {
+	margin-top: 20px;
+	color: #555;
+  }
+  
+  p {
+	text-align: center;
+	margin: 10px 0;
+  }
+  
+  /* Styling the buttons */
+  button {
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+  }
+  
+  button:hover {
+	background-color: #45a049;
+  }
+  
+  /* Styling the list */
+  ol {
+	margin-top: 10px;
+  }
+  
+  li {
+	margin-bottom: 5px;
+  }
+  
+  /* Styling the egg image */
+  #my_egg {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+  }
+  
+  /* Styling the counter */
+  #my_counter {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  /* Add more styles as needed */
+  
