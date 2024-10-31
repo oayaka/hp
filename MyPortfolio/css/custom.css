@@ -1,0 +1,248 @@
+/* フォント設定 */
+.zen-maru-gothic-regular {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.m-plus-1p-regular {
+    font-family: "M PLUS 1p", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* テキストスタイル */
+p {
+    font-family: "M PLUS 1p", serif;
+    font-weight: 300;
+    color: #555;
+}
+
+h1 {
+	font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* 全体の背景色 */
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+/* ナビゲーションバー */
+.navbar-brand img {
+    width: 28px;
+    height: auto;
+    margin: 0px 5px;
+    padding: 0px;
+    border-radius: 14px;
+}
+
+nav {
+    background-color: #ba91b0;
+}
+
+/* キーセクション */
+#my_key {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0px;
+    background: linear-gradient(135deg, #f4caba, #e2acb2);
+    color: #333;
+}
+
+#my_key img {
+    width: 180px;
+    height: auto;
+    margin: 1rem 0px;
+    border-radius: 90px;
+    filter: drop-shadow(0 0 2.0rem rgb(255, 177, 247));
+}
+
+#my_key h1 {
+    margin: 1rem 0px;
+    font-size: 3rem;
+}
+
+#my_key p {
+    margin: 1rem 0px;
+    font-size: 1.2rem;
+}
+
+/* ポートフォリオセクション */
+#my_portfolio {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/* カードデザイン */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 25rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* グリッドの余白調整 */
+.row {
+    gap: 1.5rem;
+}
+
+/* スキルセクション */
+#my_about {
+    width: 100%;
+    height: auto;
+    background-color: #89d2cb;
+    color: #fff;
+}
+
+/* お問い合わせセクション */
+#my_contact {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+#my_contact i {
+    padding: 0.2rem;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+#my_contact i:hover {
+    transform: rotate(10deg) scale(1.2);
+}
+
+/* フッター */
+footer {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 2rem 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #c49db5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* CSS
+
+.zen-maru-gothic-regular {
+	font-family: "Zen Maru Gothic", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.m-plus-1p-regular {
+	font-family: "M PLUS 1p", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p{
+	font-family: "M PLUS 1p", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1{
+	font-family: "M PLUS 1p", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+html, body{
+	width: 100%; height: 100%;
+	background-color: antiquewhite;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+nav{
+	background-color: rgb(226, 172, 178);
+}
+
+#my_key{
+	width: 100%; height: auto;
+	padding: 3rem 0px;
+	background-color: rgb(244, 202, 186);
+	color: white;
+}
+
+#my_key img{
+	width: 180px; height: auto;
+	margin: 1rem 0px;
+	border-radius: 90px;
+	filter: drop-shadow(0 0 2.0rem rgb(255, 177, 247));
+}
+
+#my_key h1{
+	margin: 1rem 0px;
+	font-size: 3rem;
+}
+
+#my_key p{
+	margin: 1rem 0px;
+	font-size: 1.2rem;
+}
+
+#my_portfolio{
+	text-align: center;
+}
+
+#my_portfolio{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+}
+
+#my_about{
+	width: 100%; height: auto;
+	background-color:rgb(137, 210, 203);
+	color: white;
+}
+
+#my_contact{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+}
+
+#my_contact i{
+	padding: 0.2rem;
+	font-size: 2rem;
+} */
