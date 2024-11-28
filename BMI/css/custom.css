@@ -1,0 +1,114 @@
+/* 基本設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* メインコンテンツのスタイル */
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+/* 入力フォーム */
+.main1 p, .main2 p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    width: calc(100% - 50px);
+    padding: 0.5rem;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* ボタンスタイル */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* 結果表示 */
+.main4 p, .main5 p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+strong {
+    color: #4caf50;
+}
+
+
+/* ボタンを中央に配置 */
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* 上下の余白 */
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 480px) {
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 40px);
+    }
+
+    button {
+        width: 100%;
+    }
+}
