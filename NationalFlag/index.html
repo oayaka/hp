@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/i.ico">
+	<title>国旗クイズ</title>
+
+	<script>
+		(function(d) {
+		  var config = {
+			kitId: 'bdo5zec',
+			scriptTimeout: 3000,
+			async: true
+		  },
+		  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	  </script>
+
+	  
+	<!-- CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="//unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin/>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<h1>国旗クイズ</h1>
+	<button id="my_btn">ゲームスタート</button><br>
+
+	<img id ="my_img"src="./images/hatena.png">
+
+	<br>
+
+	<button id="btn_0">1</button>
+	<p id="p_0">*</p>
+
+	<button id="btn_1">2</button>
+	<p id="p_1">*</p>
+
+	<button id="btn_2">3</button>
+	<p id="p_2">*</p>
+
+	<p id="score">得点: 0</p>
+	
+	<p id="kaitou"></p>
+	<button id="btn_next">次へ</button>
+	
+
+	<!-- JavaScript -->
+	<script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+	<script src="//unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+	crossorigin></script>
+	<script src="//cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.js"></script>
+	<script src="./utility.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
