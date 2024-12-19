@@ -72,375 +72,375 @@ $(document).ready(()=>{
 
 
 		if(rdm == 0){//アイスらど
-			$("#my_img").attr("src", "./images/1_アイスランド.png");
+			$("#my_img").attr("src", "./images/1.png");
 			kenmei ="アイスランド"
 		}
 
 		if(rdm == 1){//アイルランド
-			$("#my_img").attr("src", "./images/2_アイルランド.png");
+			$("#my_img").attr("src", "./images/2.png");
 			kenmei ="アイルランド"
 		}
 
 		if(rdm == 2){//アゼルバイジャン
-			$("#my_img").attr("src", "./images/3_アゼルバイジャン.png");
+			$("#my_img").attr("src", "./images/3.png");
 			kenmei ="岩手アゼルバイジャン"
 		}
 		if(rdm == 3){//アフガニスタン
-			$("#my_img").attr("src", "./images/4_アフガニスタン.png");
+			$("#my_img").attr("src", "./images/4.png");
 			kenmei ="アフガニスタン"
 		}
 
 		if(rdm == 4){//アメリカ合衆国
-			$("#my_img").attr("src", "./images/5_アメリカ合衆国.png");
+			$("#my_img").attr("src", "./images/5.png");
 			kenmei ="アメリカ合衆国"
 		}
 		if(rdm == 5){//アラブ首長国連邦
-			$("#my_img").attr("src", "./images/6_アラブ首長国連邦.png");
+			$("#my_img").attr("src", "./images/6.png");
 			kenmei ="アラブ首長国連邦"
 		}
 		if(rdm == 6){//アルゼンチン
-			$("#my_img").attr("src", "./images/7_アルゼンチン.png");
+			$("#my_img").attr("src", "./images/7.png");
 			kenmei ="アルゼンチン"
 		}
 
 		if(rdm == 7){//イエメン
-			$("#my_img").attr("src", "./images/8_イエメン.png");
+			$("#my_img").attr("src", "./images/8.png");
 			kenmei ="イエメン"
 		}
 		if(rdm == 8){//イギリス
-			$("#my_img").attr("src", "./images/9_イギリス.png");
+			$("#my_img").attr("src", "./images/9.png");
 			kenmei ="イギリス"
 		}
 		if(rdm == 9){//イスラエル
-			$("#my_img").attr("src", "./images/10_イスラエル.png");
+			$("#my_img").attr("src", "./images/10.png");
 			kenmei ="イスラエル"
 		}
 		if(rdm == 10){//イタリア
-			$("#my_img").attr("src", "./images/11_イタリア.png");
+			$("#my_img").attr("src", "./images/11.png");
 			kenmei ="イタリア"
 		}
 		if(rdm == 11){//イラク
-			$("#my_img").attr("src", "./images/12_イラク.png");
+			$("#my_img").attr("src", "./images/12.png");
 			kenmei ="イラク"
 		}
 		if(rdm == 12){//イラン
-			$("#my_img").attr("src", "./images/13_イラン.png");
+			$("#my_img").attr("src", "./images/13.png");
 			kenmei ="イラン"
 		}
 		if(rdm == 13){//インド
-			$("#my_img").attr("src", "./images/14_インド.png");
+			$("#my_img").attr("src", "./images/14.png");
 			kenmei ="インド"
 		}
 		if(rdm == 14){//インドネシア
-			$("#my_img").attr("src", "./images/15_インドネシア.png");
+			$("#my_img").attr("src", "./images/15.png");
 			kenmei ="インドネシア"
 		}
 		if(rdm == 15){//ウガンダ
-			$("#my_img").attr("src", "./images/16_ウガンダ.png");
+			$("#my_img").attr("src", "./images/16.png");
 			kenmei ="ウガンダ"
 		}
 		if(rdm == 16){//ウクライナ
-			$("#my_img").attr("src", "./images/17_ウクライナ.png");
+			$("#my_img").attr("src", "./images/17.png");
 			kenmei ="ウクライナ"
 		}
 		if(rdm == 17){//ウズベキスタン
-			$("#my_img").attr("src", "./images/18_ウズベキスタン.png");
+			$("#my_img").attr("src", "./images/18.png");
 			kenmei ="ウズベキスタン"
 		}
 		if(rdm == 18){//ウルグアイ
-			$("#my_img").attr("src", "./images/19_ウルグアイ.png");
+			$("#my_img").attr("src", "./images/19.png");
 			kenmei ="ウルグアイ"
 		}
 		if(rdm == 19){//エクアドル
-			$("#my_img").attr("src", "./images/20_エクアドル.png");
+			$("#my_img").attr("src", "./images/20.png");
 			kenmei ="エクアドル"
 		}
 		if(rdm == 20){//エジプト
-			$("#my_img").attr("src", "./images/21_エジプト.png");
+			$("#my_img").attr("src", "./images/21.png");
 			kenmei ="エジプト"
 		}
 		if(rdm == 21){//エチオピア
-			$("#my_img").attr("src", "./images/22_エチオピア.png");
+			$("#my_img").attr("src", "./images/22.png");
 			kenmei ="エチオピア"
 		}
 		if(rdm == 22){//エルサルバドル
-			$("#my_img").attr("src", "./images/23_エルサルバドル.png");
+			$("#my_img").attr("src", "./images/23.png");
 			kenmei ="エルサルバドル"
 		}
 
 		if(rdm == 23){//オーストラリア.
-			$("#my_img").attr("src", "./images/24_オーストラリア.png");
+			$("#my_img").attr("src", "./images/24.png");
 			kenmei ="オーストラリア"
 		}
 		if(rdm == 24){//オーストリア
-			$("#my_img").attr("src", "./images/25_オーストリア.png");
+			$("#my_img").attr("src", "./images/25.png");
 			kenmei ="オーストリア"
 		}
 		if(rdm == 25){//オランダ
-			$("#my_img").attr("src", "./images/26_オランダ.png");
+			$("#my_img").attr("src", "./images/26.png");
 			kenmei ="オランダ"
 		}
 		if(rdm == 26){//ガーナ
-			$("#my_img").attr("src", "./images/27_ガーナ.png");
+			$("#my_img").attr("src", "./images/27.png");
 			kenmei ="ガーナ"
 		}
 		if(rdm == 27){//カーボベルデ
-			$("#my_img").attr("src", "./images/28_カーボベルデ.png");
+			$("#my_img").attr("src", "./images/28.png");
 			kenmei ="カーボベルデ"
 		}
 		if(rdm == 28){//ガイアナ
-			$("#my_img").attr("src", "./images/29_ガイアナ.png");
+			$("#my_img").attr("src", "./images/29.png");
 			kenmei ="ガイアナ"
 		}
 		if(rdm == 29){//カザフスタン
-			$("#my_img").attr("src", "./images/30_カザフスタン.png");
+			$("#my_img").attr("src", "./images/30.png");
 			kenmei ="カザフスタン"
 		}
 
 		if(rdm == 30){//カナダ
-			$("#my_img").attr("src", "./images/31_カナダ.png");
+			$("#my_img").attr("src", "./images/31.png");
 			kenmei ="カナダ"
 		}
 		if(rdm == 31){//カルメーン
-			$("#my_img").attr("src", "./images/32_カルメーン.png");
+			$("#my_img").attr("src", "./images/32.png");
 			kenmei ="カルメーン"
 		}
 		if(rdm == 32){//韓国
-			$("#my_img").attr("src", "./images/33_韓国.png");
+			$("#my_img").attr("src", "./images/33.png");
 			kenmei ="韓国"
 		}
 		if(rdm == 33){//ガンビア
-			$("#my_img").attr("src", "./images/34_ガンビア.png");
+			$("#my_img").attr("src", "./images/34.png");
 			kenmei ="ガンビア"
 		}
 		if(rdm == 34){//カンボジア
-			$("#my_img").attr("src", "./images/35_カンボジア.png");
+			$("#my_img").attr("src", "./images/35.png");
 			kenmei ="カンボジア"
 		}
 
 		if(rdm == 35){//北朝鮮
-			$("#my_img").attr("src", "./images/36_北朝鮮.png");
+			$("#my_img").attr("src", "./images/36.png");
 			kenmei ="北朝鮮"
 		}
 		if(rdm == 36){//ギニア
-			$("#my_img").attr("src", "./images/37_ギニア.png");
+			$("#my_img").attr("src", "./images/37.png");
 			kenmei ="ギニア"
 		}
 		if(rdm == 37){//キューバ
-			$("#my_img").attr("src", "./images/38_キューバ.png");
+			$("#my_img").attr("src", "./images/38.png");
 			kenmei ="キューバ"
 		}
 		if(rdm == 38){//ギリシャ
-			$("#my_img").attr("src", "./images/39_ギリシャ.png");
+			$("#my_img").attr("src", "./images/39.png");
 			kenmei ="ギリシャ"
 		}
 
 		if(rdm == 39){//キリバス
-			$("#my_img").attr("src", "./images/40_キリバス.png");
+			$("#my_img").attr("src", "./images/40.png");
 			kenmei ="キリバス"
 		}
 		if(rdm == 40){//キルギス
-			$("#my_img").attr("src", "./images/41_キルギス.png");
+			$("#my_img").attr("src", "./images/41.png");
 			kenmei ="キルギス"
 		}
 		if(rdm == 41){//グレナダ
-			$("#my_img").attr("src", "./images/42_グレナダ.png");
+			$("#my_img").attr("src", "./images/42.png");
 			kenmei ="グレナダ"
 		}
 		if(rdm == 42){//コートジボワール
-			$("#my_img").attr("src", "./images/43_コートジボワール.png");
+			$("#my_img").attr("src", "./images/43.png");
 			kenmei ="コートジボワール"
 		}
 		if(rdm == 43){//コスタリカ
-			$("#my_img").attr("src", "./images/44_コスタリカ.png");
+			$("#my_img").attr("src", "./images/44.png");
 			kenmei ="コスタリカ"
 		}
 		if(rdm == 44){//コモロ
-			$("#my_img").attr("src", "./images/45_コモロ.png");
+			$("#my_img").attr("src", "./images/45.png");
 			kenmei ="コモロ"
 		}
 		if(rdm == 45){//コロンビア
-			$("#my_img").attr("src", "./images/46_コロンビア.png");
+			$("#my_img").attr("src", "./images/46.png");
 			kenmei ="コロンビア"
 		}
 		if(rdm == 46){//サウジアラビア
-			$("#my_img").attr("src", "./images/47_サウジアラビア.png");
+			$("#my_img").attr("src", "./images/47.png");
 			kenmei ="サウジアラビア"
 		}
 		if(rdm == 47){//シエラレオネ
-			$("#my_img").attr("src", "./images/48_し.png");
+			$("#my_img").attr("src", "./images/48.png");
 			kenmei ="シエラレオネ"
 		}
 
 		if(rdm == 48){//ジブチ
-			$("#my_img").attr("src", "./images/49_ジブチ.png");
+			$("#my_img").attr("src", "./images/49.png");
 			kenmei ="ジブチ"
 		}
 
 		if(rdm == 49){//ジャマイカ
-			$("#my_img").attr("src", "./images/50_ジャマイカ.png");
+			$("#my_img").attr("src", "./images/50.png");
 			kenmei ="ジャマイカ"
 		}
 
 		if(rdm == 50){//ジョージア
-			$("#my_img").attr("src", "./images/51_ジョージア.png");
+			$("#my_img").attr("src", "./images/51.png");
 			kenmei ="ジョージア"
 		}
 
 		if(rdm == 51){//シリア
-			$("#my_img").attr("src", "./images/52_シリア.png");
+			$("#my_img").attr("src", "./images/52.png");
 			kenmei ="シリア"
 		}
 
 		if(rdm == 52){//シンガポール
-			$("#my_img").attr("src", "./images/53_シンガポール.png");
+			$("#my_img").attr("src", "./images/53.png");
 			kenmei ="シンガポール"
 		}
 
 		if(rdm == 53){//スウェーデン
-			$("#my_img").attr("src", "./images/54_スウェーデン.png");
+			$("#my_img").attr("src", "./images/54.png");
 			kenmei ="スウェーデン"
 		}
 
 		if(rdm == 54){//スペイン
-			$("#my_img").attr("src", "./images/55_スペイン.png");
+			$("#my_img").attr("src", "./images/55.png");
 			kenmei ="スペイン"
 		}
 
 		if(rdm == 55){//スリナム
-			$("#my_img").attr("src", "./images/56_スリナム.png");
+			$("#my_img").attr("src", "./images/56.png");
 			kenmei ="スリナム"
 		}
 
 
 		if(rdm == 56){//スロバキア
-			$("#my_img").attr("src", "./images/57_スロバキア.png");
+			$("#my_img").attr("src", "./images/57.png");
 			kenmei ="スロバキア"
 		}
 
 		if(rdm == 57){//セルビア
-			$("#my_img").attr("src", "./images/58_セルビア.png");
+			$("#my_img").attr("src", "./images/58.png");
 			kenmei ="セルビア"
 		}
 
 		if(rdm == 58){//タイ
-			$("#my_img").attr("src", "./images/59_タイ.png");
+			$("#my_img").attr("src", "./images/59.png");
 			kenmei ="タイ"
 		}
 
 		if(rdm == 59){//タンザニア
-			$("#my_img").attr("src", "./images/60_タンザニア.png");
+			$("#my_img").attr("src", "./images/60.png");
 			kenmei ="タンザニア"
 		}
 
 		if(rdm == 60){//チェコ
-			$("#my_img").attr("src", "./images/61_チェコ.png");
+			$("#my_img").attr("src", "./images/61.png");
 			kenmei ="チェコ"
 		}
 
 		if(rdm == 61){//チャド
-			$("#my_img").attr("src", "./images/62_チャド.png");
+			$("#my_img").attr("src", "./images/62.png");
 			kenmei ="チャド"
 		}
 		if(rdm == 62){//中央アフリカ共和国
-			$("#my_img").attr("src", "./images/63_中央アフリカ共和国.png");
+			$("#my_img").attr("src", "./images/63.png");
 			kenmei ="中央アフリカ共和国"
 		}
 		if(rdm == 63){//中華人民共和国
-			$("#my_img").attr("src", "./images/64_中華人民共和国.png");
+			$("#my_img").attr("src", "./images/64.png");
 			kenmei ="中華人民共和国"
 		}
 		if(rdm == 64){//チュニジア
-			$("#my_img").attr("src", "./images/65_チュニジア.png");
+			$("#my_img").attr("src", "./images/65.png");
 			kenmei ="チュニジア"
 		}
 		if(rdm == 65){//チリ
-			$("#my_img").attr("src", "./images/66_チリ.png");
+			$("#my_img").attr("src", "./images/66.png");
 			kenmei ="チリ"
 		}
 
 		if(rdm == 66){//デンマーク
-			$("#my_img").attr("src", "./images/67_デンマーク.png");
+			$("#my_img").attr("src", "./images/67.png");
 			kenmei ="デンマーク"
 		}
 
 		if(rdm == 67){//ドイツ
-			$("#my_img").attr("src", "./images/68_ドイツ.png");
+			$("#my_img").attr("src", "./images/68.png");
 			kenmei ="ドイツ"
 		}
 		if(rdm == 68){//トーゴ
-			$("#my_img").attr("src", "./images/69_トーゴ.png");
+			$("#my_img").attr("src", "./images/69.png");
 			kenmei ="トーゴ"
 		}
 		if(rdm == 69){//トルクメニスタン
-			$("#my_img").attr("src", "./images/70_トルクメニスタン.png");
+			$("#my_img").attr("src", "./images/70.png");
 			kenmei ="トルクメニスタン"
 		}
 		if(rdm == 70){//トルコ
-			$("#my_img").attr("src", "./images/71_トルコ.png");
+			$("#my_img").attr("src", "./images/71.png");
 			kenmei ="トルコ"
 		}
 
 		if(rdm == 71){//ナイジェリア
-			$("#my_img").attr("src", "./images/72_ナイジェリア.png");
+			$("#my_img").attr("src", "./images/72.png");
 			kenmei ="ナイジェリア"
 		}
 		if(rdm == 72){//ナミビア
-			$("#my_img").attr("src", "./images/73_ナミビア.png");
+			$("#my_img").attr("src", "./images/73.png");
 			kenmei ="ナミビア"
 		}
 		if(rdm == 73){//ニカラグア
-			$("#my_img").attr("src", "./images/74_ニカラグア.png");
+			$("#my_img").attr("src", "./images/74.png");
 			kenmei ="ニカラグア"
 		}
 		if(rdm == 74){//日本
-			$("#my_img").attr("src", "./images/75_日本.png");
+			$("#my_img").attr("src", "./images/75.png");
 			kenmei ="日本"
 		}
 		if(rdm == 75){//ニュージーランド
-			$("#my_img").attr("src", "./images/76_ニュージーランド.png");
+			$("#my_img").attr("src", "./images/76.png");
 			kenmei ="ニュージーランド"
 		}
 
 		if(rdm == 76){//ノルウェー
-			$("#my_img").attr("src", "./images/77_ノルウェー.png");
+			$("#my_img").attr("src", "./images/77.png");
 			kenmei ="ノルウェー"
 		}
 		if(rdm == 77){//バーレーン
-			$("#my_img").attr("src", "./images/78_バーレーン.png");
+			$("#my_img").attr("src", "./images/78.png");
 			kenmei ="バーレーン"
 		}
 		if(rdm == 78){//ハイチ
-			$("#my_img").attr("src", "./images/79_ハイチ.png");
+			$("#my_img").attr("src", "./images/79.png");
 			kenmei ="ハイチ"
 		}
 		if(rdm == 79){//パキスタン
-			$("#my_img").attr("src", "./images/80_パキスタン.png");
+			$("#my_img").attr("src", "./images/80.png");
 			kenmei ="パキスタン"
 		}
 		if(rdm == 80){//パナマ
-			$("#my_img").attr("src", "./images/81_パナマ.png");
+			$("#my_img").attr("src", "./images/81.png");
 			kenmei ="パナマ"
 		}
 
 		if(rdm == 81){//バヌアツ
-			$("#my_img").attr("src", "./images/82_バヌアツ.png");
+			$("#my_img").attr("src", "./images/82.png");
 			kenmei ="バヌアツ"
 		}
 		if(rdm == 82){//パラオ
-			$("#my_img").attr("src", "./images/83_パラオ.png");
+			$("#my_img").attr("src", "./images/83.png");
 			kenmei ="パラオ"
 		}
 		if(rdm == 83){//パラグアイ
-			$("#my_img").attr("src", "./images/84_パラグアイ.png");
+			$("#my_img").attr("src", "./images/84.png");
 			kenmei ="パラグアイ"
 		}
 		if(rdm == 84){//バルバドス
-			$("#my_img").attr("src", "./images/85_バルバドス.png");
+			$("#my_img").attr("src", "./images/85.png");
 			kenmei ="バルバドス"
 		}
 		if(rdm == 85){//パレスチナ
-			$("#my_img").attr("src", "./images/86_パレスチナ.png");
+			$("#my_img").attr("src", "./images/86.png");
 			kenmei ="パレスチナ"
 		}
 
