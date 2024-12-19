@@ -1,0 +1,90 @@
+/* CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: "a-otf-jun-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#my_btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#my_btn:hover {
+    background-color: #2980b9;
+}
+
+#my_img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    color: #333;
+    font-family: "a-otf-jun-pro", sans-serif;
+    margin: auto;
+}
+
+
+button {
+    
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "a-otf-jun-pro", sans-serif;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#score {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+
+#btn_0, #btn_1, #btn_2 {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "a-otf-jun-pro", sans-serif;
+}
+
+#btn_0:hover, #btn_1:hover, #btn_2:hover {
+    background-color: #27ae60;
+}
+
+#p_0, #p_1, #p_2 {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
