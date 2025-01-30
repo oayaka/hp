@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Dキャラクターギャラリー</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d2ebf4;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: rgb(234, 244, 250);
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img, .card iframe {
+            width: 100%;
+            border-radius: 10px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .title {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 10px;
+            background: white;
+            padding: 20px;
+            position: relative;
+        }
+        .modal img, .modal iframe {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+            border-radius: 10px;
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>3Dキャラクターギャラリー</h1>
+    <div class="gallery">
+		<div class="card" onclick="openModal('images/kuma.0174.jpeg', 'image')">
+            <img src="images/kumaa.jpeg" alt="キャラクター1">
+            <div class="title">くま</div>
+        </div>
+        <div class="card" onclick="openModal('images/kuma.0174.jpeg', 'image')">
+            <img src="images/kuma.0174.jpeg" alt="キャラクター1">
+            <div class="title">くま</div>
+        </div>
+        <div class="card" onclick="openModal('https://drive.google.com/file/d/1cGhKvmmbroyJMpWRw5sL7EGUUzxOuVNo/preview', 'iframe')">
+            <iframe src="https://drive.google.com/file/d/1cGhKvmmbroyJMpWRw5sL7EGUUzxOuVNo/preview" allow="autoplay"></iframe>
+            <div class="title">ダンシングくま</div>
+        </div>
+        <div class="card" onclick="openModal('images/myaku.png', 'image')">
+            <img src="images/myaku.png" alt="キャラクター2">
+            <div class="title">ミャクミャク</div>
+        </div>
+        <div class="card" onclick="openModal('images/ponderaion.png', 'image')">
+            <img src="images/ponderaion.png" alt="キャラクター3">
+            <div class="title">ポンデライオン</div>
+        </div>
+		<div class="card" onclick="openModal('images/sin.jpeg', 'image')">
+            <img src="images/sin.jpeg" alt="キャラクター3">
+            <div class="title">ポンデライオン②</div>
+        </div>
+		<div class="card" onclick="openModal('images/kanransya.png', 'image')">
+            <img src="images/kanransya.png" alt="キャラクター3">
+            <div class="title">観覧車</div>
+        </div>
+		<div class="card" onclick="openModal('images/nezu.jpeg', 'image')">
+            <img src="images/nezu.jpeg" alt="キャラクター3">
+            <div class="title">ネズミ</div>
+        </div>
+		<div class="card" onclick="openModal('images/ar.jpeg', 'image')">
+            <img src="images/ar.jpeg" alt="キャラクター3">
+            <div class="title">AR</div>
+        </div>
+        <div class="card" onclick="openModal('https://drive.google.com/file/d/1XAJU6kB7sBBBaDOBuhexIrHpS-FY-ZP5/preview', 'iframe')">
+            <iframe src="https://drive.google.com/file/d/1XAJU6kB7sBBBaDOBuhexIrHpS-FY-ZP5/preview" allow="autoplay"></iframe>
+            <div class="title">サメアニメーション</div>
+        </div>
+        <div class="card" onclick="openModal('https://drive.google.com/file/d/1s1mtv1p7yj-qbJhlM_nllaRII7E0Fr6z/preview', 'iframe')">
+            <iframe src="https://drive.google.com/file/d/1s1mtv1p7yj-qbJhlM_nllaRII7E0Fr6z/preview" allow="autoplay"></iframe>
+            <div class="title">イルカアニメーション</div>
+        </div>
+		<div class="card" onclick="openModal('https://drive.google.com/file/d/1kVzcxF1bVVILc4_t6cFdNceFwnUzEseT/preview', 'iframe')">
+            <iframe src="https://drive.google.com/file/d/1kVzcxF1bVVILc4_t6cFdNceFwnUzEseT/preview" allow="autoplay"></iframe>
+            <div class="title">気球アニメーション</div>
+        </div>
+    
+    </div>
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-img" style="display: none;">
+            <iframe id="modal-iframe" style="display: none;" allow="autoplay"></iframe>
+        </div>
+    </div>
+    <script>
+        function openModal(src, type) {
+            var modal = document.getElementById("modal");
+            var img = document.getElementById("modal-img");
+            var iframe = document.getElementById("modal-iframe");
+            
+            if (type === "image") {
+                img.src = src;
+                img.style.display = "block";
+                iframe.style.display = "none";
+            } else {
+                iframe.src = src;
+                iframe.style.display = "block";
+                img.style.display = "none";
+            }
+            
+            modal.style.display = "flex";
+        }
+        
+        function closeModal() {
+            var modal = document.getElementById("modal");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
